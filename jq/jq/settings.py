@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'jq.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'jjpp',
+        'NAME': 'nameofDB',
         'USER': 'postgres',
-        'PASSWORD': '19990811',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
-        'PORT': '5434',
+        'PORT': '5432',
     }
 }
 
